@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <h1>🌌 My Dreams Website</h1>
+  <p>A futuristic single-page SPA showcasing my dreams, skills, projects, and contact info. Built with Next.js, React, TypeScript, Tailwind CSS, Framer Motion, and React Icons.</p>
+  <a href="https://hamiparsa.github.io/My-Dream/"> 
+    <img src="https://img.shields.io/badge/View_Live_Project-000?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
+</div>
 
-## Getting Started
+---
 
-First, run the development server:
+## 🌟 About This Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**My Dreams Website** is a visually stunning **SPA** presenting my personal dreams, skills, projects, and contact information.  
+It features **full-screen hero animations**, **hover glow effects**, **scroll-based animations**, and **interactive Neon-styled buttons**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚡ Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🖤 **Dark & Neon Theme** — sleek, futuristic design with accent colors  
+- ⚛️ **React & Next.js SPA** — smooth client-side navigation and fast performance  
+- 🌀 **Framer Motion Animations** — hero, hover, scroll, and gallery effects  
+- 🧩 **Responsive Design** — desktop, tablet, and mobile friendly  
+- 🌠 **Dream Gallery** — interactive dream cards with Neon hover glow  
+- 🛠️ **Skills Section** — tech stack displayed with icons and animations  
+- 💻 **Projects Section** — featured personal projects with interactive cards  
+- 📩 **Contact Section** — stylish contact links with hover animations  
+- 🌈 **Gradient & Neon Glow Effects** — headings, buttons, and hover elements  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧰 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Technology | Purpose |
+|------------|---------|
+| ⚛️ **React** | Component-based UI and interactive behavior |
+| 🧭 **Next.js** | SPA routing, image optimization, and client-side rendering |
+| 🟦 **TypeScript** | Type safety for props, state, and components |
+| 🎨 **Tailwind CSS** | Modern responsive styling with hover, glow, and gradient effects |
+| 🌀 **Framer Motion** | Animations for hero, gallery, hover, and scroll effects |
+| 🖼️ **React Icons** | Icons for UI and dreams showcase |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 💡 Description
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Users can:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Explore the **Hero section** with animated typing effect and Neon vibe  
+- Scroll through **Dream Gallery, Skills, Projects, and Contact** sections  
+- Hover over **dream cards and project cards** to see Neon glow effects  
+- Access **external links** (e.g., GitHub, LinkedIn)  
+- Enjoy **fully responsive design** on all devices  
+
+This project demonstrates **modern SPA design, interactive UI, and Neon-futuristic aesthetics**, centered around my personal dreams.
+
+---
+
+## 🖼️ Project Preview
+
+<div align="center">
+  <img src="/pic1.png" width="700px" />
+  <br/><br/>
+  <img src="/pic2.png" width="700px" />
+</div>
+
+---
+
+## 👨‍💻 Author
+
+**Developed by:** [HamiParsa](https://github.com/HamiParsa)  
+💬 Front-End Developer | Building interactive, futuristic, and visually stunning websites
+
+---
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=react,next,typescript,tailwind,framer,reacticons" />
+</div>
