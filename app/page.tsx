@@ -12,9 +12,9 @@ import {
   FaGithub,
   FaLinkedin,
   FaEnvelope,
+  FaTelegramPlane
 } from "react-icons/fa";
 
-// اگر میخوای آیکون Next.js / Python / Django اضافه کنیم، svg سفارشی استفاده می‌کنیم
 import { SiNextdotjs, SiPython, SiDjango } from "react-icons/si";
 
 // Gallery Dreams
@@ -47,8 +47,6 @@ const projects = [
   { title: "Database Project", icon: <FaDatabase /> },
 ];
 
-// Contact
-const contacts = [FaGithub, FaLinkedin, FaEnvelope];
 
 export default function Home() {
   const fullText = "Code the Future & Travel Beyond Borders";
@@ -274,21 +272,62 @@ export default function Home() {
       <section className="w-full py-32 bg-[#111111] flex flex-col items-center px-4">
         <h2 className="text-4xl font-bold mb-12 text-white">Contact Me</h2>
         <div className="flex gap-8 text-4xl">
-          {contacts.map((Icon, i) => (
-            <motion.a
-              key={i}
-              href="#"
-              className="hover:text-blue-400 transition-colors"
-              initial={{ scale: 0 }}
-              whileInView={{ scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: i * 0.2 }}
-            >
-              <Icon />
-            </motion.a>
-          ))}
+          {/* GitHub */}
+          <motion.a
+            href="https://github.com/HamiParsa"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-400 transition-colors"
+            initial={{ scale: 0 }}
+            whileInView={{ scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0 }}
+          >
+            <FaGithub />
+          </motion.a>
+
+          {/* LinkedIn */}
+          <motion.a
+            href="https://www.linkedin.com/in/HamiParsa/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-400 transition-colors"
+            initial={{ scale: 0 }}
+            whileInView={{ scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            <FaLinkedin />
+          </motion.a>
+
+          {/* Email */}
+          <motion.a
+            href="mailto:parsa.developer001@gmail.com"
+            className="hover:text-blue-400 transition-colors"
+            initial={{ scale: 0 }}
+            whileInView={{ scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+          >
+            <FaEnvelope />
+          </motion.a>
+
+          {/* Telegram */}
+          <motion.a
+            href="https://t.me/HamiParsa"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-400 transition-colors"
+            initial={{ scale: 0 }}
+            whileInView={{ scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.6 }}
+          >
+            <FaTelegramPlane />
+          </motion.a>
         </div>
       </section>
+
       {/* ================= Unique Footer ================= */}
       <footer className="w-full bg-[#0a0a0a] py-16 flex flex-col items-center border-t border-gray-800 relative overflow-hidden">
         {/* Neon Gradient Background */}
